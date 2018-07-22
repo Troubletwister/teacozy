@@ -24,8 +24,11 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    height: 50px;
     padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
 }
 
 nav span {
@@ -35,8 +38,34 @@ nav span {
     margin-right: 10px;
     }
 
+/* Main Content Section */
+.content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: 2; /* not working */
+    width: 1280px;
+    margin: 0 auto; /*trying to center content - not working */
+    padding-top: 70px;
+    }
 
 /* Mission Section */
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    }
+
+.missiontext {
+    width: 1200px;
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    }
 
 /*Tea of the Month Section */
 
